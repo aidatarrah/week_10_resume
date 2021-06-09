@@ -1,0 +1,138 @@
+/*
+ * Globals
+ */
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff; }
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff; }
+
+/*
+ * Base structure
+ */
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+  font-family: 'Google Sans',Roboto,Arial,sans-serif; }
+
+body {
+  overflow: hidden;
+  display: -ms-flexbox;
+  display: flex;
+  color: #141517; }
+
+.cover-container {
+  max-width: 70em; }
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem; }
+
+.masthead-brand {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  color: #141517; }
+
+.resume {
+  padding-left: 200px;
+  margin-top: 15rem;
+  font-size: 130px;
+  color: #656667; }
+
+#overlay {
+  position: absolute;
+  /* Sit on top of the page content */
+  width: 1500px;
+  /* Full width (cover the whole page) */
+  height: 1500px;
+  /* Full height (cover the whole page) */
+  background-color: #F8D400;
+  opacity: 0.9;
+  /*border-left: 2px solid #707070;*/
+  border-radius: 100%;
+  z-index: -1;
+  justify-content: flex-end;
+  margin-top: 60px;
+  padding-right: 50px; }
+
+#overlay:hover {
+  display: none; }
+
+.nav-masthead .nav-link {
+  font-size: 1rem;
+  padding: .25rem 0.75rem;
+  font-weight: 400;
+  color: #141517;
+  background-color: transparent; }
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  color: rgba(255, 255, 255, 0.25); }
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem; }
+
+.nav-masthead .active {
+  color: #707070;
+  border-bottom-color: #fff; }
+
+.about {
+  display: none; }
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left; }
+  .nav-masthead {
+    float: right; }
+  .mastfoot {
+    float: center; } }
+
+@media (max-width: 768px) {
+  body {
+    background-image: none; }
+  .resumeContent {
+    display: block !important;
+    border: 1px; }
+  #overlay {
+    display: none !important; }
+  .resume {
+    display: none; } }
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 1.5rem 1.5rem;
+  color: #141517; }
+
+.resume {
+  color: white; }
+
+/*p {
+  border:1px;
+   border-style:solid;
+    border-color:gray;
+    padding: 1em;
+}
+*/
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  margin-bottom: -20px;
+  font-size: 0.80rem; }
