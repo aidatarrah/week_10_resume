@@ -121,6 +121,7 @@ display: none;
   body {
   background-image: none;
   overflow: visible;
+  overflow: scroll;
   }
 
   .resumeContent {
@@ -133,6 +134,10 @@ display: none;
   }
 
 .resume {
+  display: none;
+}
+
+hr {
   display: none;
 }
 

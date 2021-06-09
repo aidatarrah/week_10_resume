@@ -102,13 +102,16 @@ body {
 @media (max-width: 768px) {
   body {
     background-image: none;
-    overflow: visible; }
+    overflow: visible;
+    overflow: scroll; }
   .resumeContent {
     display: block !important;
     border: 1px; }
   #overlay {
     display: none !important; }
   .resume {
+    display: none; }
+  hr {
     display: none; } }
 
 /*
