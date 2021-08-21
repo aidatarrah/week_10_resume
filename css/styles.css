@@ -122,8 +122,6 @@ body {
 @media (max-width: 768px) {
   body {
     background-image: none;
-    overflow: visible;
-    overflow: scroll;
   }
 
   .resumeContent {
